@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>watchcharm</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <section class="Catalog">
+      <div class="container">
+        <h2 class="catalog-title">Catalog</h2>
+        <ul catalog-list>
+          <li class="catalog-item">
+            <picture>
+              <source
+                srcset="./image/img1, 1x desktop-min.png  1x,
+                ./image/img1, 1x desktop-min.png  2x
+                  
+                "
+                media="(min-width:
+                    1200px)"
+              />
+              <source
+                srcset="./image/img1, 1x tablet-min.png  1x,
+                ./image/img1, 2x tablet-min.png  2x
+                  
+                "
+                media="(min-width:
+                    768px)"
+              />
+              <source
+                srcset="./image/img1, 1x mobile-min.png 1x,
+                ./image/img1, 2x mobile-min.png 2x
+                "
+                media="(max-width:
+                    767px)"
+              />
+
+              <img
+                src="./image/img1, 1x desktop-min.png"
+                alt="Fenix 7X Pro"
+                width="304"
+                height="312"
+                class="catalog-img"
+              />
+            </picture>
+            <h3 class="catalog-subtitle">Garmin Fenix 7X Pro Sapphire Solar</h3>
+            <p class="catalog-text">€500</p>
+          </li>
+          <li class="catalog-item">
+            <picture>
+              <source
+                srcset="
+                  ./image/img2, 1x desktop-min.png  1x,
+                  ./image/img2, 2x desktop-min.png  2x
+                "
+                media="(min-width:
+                    1200px)"
+              />
+              <source
+                srcset="
+                  ./image/img2, 1x tablet-min.png  1x,
+                  ./image/img2, 2x tablet-min.png  2x
+                "
+                media="(min-width:
+                    768px)"
+              />
+              <source
+                srcset="./image/img2, 1x mobile-min.png,
+                ./image/img2, 2x mobile-min.png"
+                media="(max-width:
+                    767px)"
+              />
+              <img
+                src="./image/img2, 1x desktop-min.png"
+                alt="Marq Athlete"
+                width="304"
+                height="312"
+                class="catalog-img"
+              />
+            </picture>
+            <h3 class="catalog-subtitle">Garmin Marq Athlete</h3>
+            <p class="catalog-text">€450</p>
+          </li>
+          <li class="catalog-item">
+            <picture>
+              <img
+                src="./image/img3, 1x desktop-min.png"
+                alt="Descent MK1"
+                width="304"
+                height="312"
+                class="catalog-img"
+              />
+            </picture>
+            <h3 class="catalog-subtitle">Garmin Descent MK1</h3>
+            <p class="catalog-text">€680</p>
+          </li>
+          <li class="catalog-item">
+            <picture>
+              <img
+                src="./image/img4, 1x desktop-min.png"
+                alt="D2 Delta PX"
+                width="304"
+                height="312"
+                class="catalog-img"
+              />
+            </picture>
+            <h3 class="catalog-subtitle">Garmin D2 Delta PX</h3>
+            <p class="catalog-text">€380</p>
+          </li>
+          <li class="catalog-item">
+            <picture>
+              <img
+                src="./image/img5, 1x desktop-min.png"
+                alt="Fenix 6 Pro Solar"
+                width="304"
+                height="312"
+                class="catalog-img"
+              />
+            </picture>
+            <h3 class="catalog-subtitle">Garmin Fenix 6 Pro Solar</h3>
+            <p class="catalog-text">€400</p>
+          </li>
+          <li class="catalog-item">
+            <picture>
+              <img
+                src="./image/img6, 1x desktop-min.png"
+                alt="Tube Watch S42"
+                width="304"
+                height="312"
+                class="catalog-img"
+              />
+            </picture>
+            <h3 class="catalog-subtitle">
+              Tube Watch S42 Date Steel With Black Case
+            </h3>
+            <p class="catalog-text">€395</p>
+          </li>
+        </ul>
+        <button type="button" class="catalog-btn">Show more</button>
+      </div>
+    </section>
+  </body>
+</html>
